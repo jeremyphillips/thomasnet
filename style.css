@@ -1,0 +1,66 @@
+
+/* /////////////// Header /////////////// */
+
+div.container { padding-bottom: 60px}
+
+section#main { padding:30px 0;}
+
+#overlay { display:none; position: fixed; top:0; width: 100%; height:100%; background:#333; opacity:.7; filter: Alpha(Opacity=70); z-index:1000;} 
+
+div.modal { 
+	display: none !important; 
+	/*position: fixed; 
+	width: 660px;  
+	height:500px; 
+	top:50%; 
+	margin-top: -250px;
+	left: 50%;
+	margin-left:-350px; */
+	z-index:1001; 
+	background:#fff;	 
+}	
+	.modal-inner { position:relative; padding:20px; }
+	.closeMod { width:30px; height:30px; position:absolute; right: 10px; top:10px; background:#333;}
+
+	#referMod label {  }
+	
+.hidden { display:none;}
+
+#logo { width:230px; height:50px; background: #ccc; float:left; margin: 10px 10px 0 0; }
+.navbar { margin-bottom: 16px;}
+
+.search-wrap { width:650px; float:left; position:relative;}
+	.search-wrap select { width: 200px; }
+	input#what { width: 350px; }
+
+.navbar-inner { padding-top: 10px; } 
+
+.navbar .btn, .navbar .btn-group { margin-top: -10px}
+
+.navbar .nav > li > a { padding: 5px 15px 5px 15px; /* border-right: 1px solid #fff; */}
+
+.search-filters { position:absolute; width:680px; bottom:-17px; left:-261px; background: #ccc; padding:5px 0 5px 260px;   }
+	.search-filters .radio { margin-right: 20px; padding-top:0; }
+	.search-filters span { padding-right: 15px;}
+	.search-filters:before { content: url('img/filter-arrow.png'); position: absolute; color: red; top: -15px; left: 290px;}
+
+
+
+section.winner { background: #a4a4a4; height:80px; padding:20px 30px 0 30px; position:relative; display: block; color:#fff;}
+	.speaker { position: absolute; right:30px; top:10px; width: 160px; height:130px; background:#555; border: 1px solid #000; z-index: 100;}
+
+section.signup-refer { height: 400px; background:#777; display: block; color:#fff; position:relative; }	
+	.signup-refer .inner { padding-top: 60px; }
+	.btn-container { position: absolute; bottom: 20px; left: 0px; }
+	section.signup-refer .span7 { width: 520px; }
+	.head { height:400px; background:#333;}
+	section.signup-refer .btn-primary { width:35%;}
+	#signUp { margin-right:30px;}
+
+section.categories { background:#fff; padding:30px 0;}
+	section.categories h2 { padding-bottom:20px;}
+	section.categories .span4 { background:#d4d4d4;}
+	section.categories .span4 .inner { padding: 20px;}
+
+
+
