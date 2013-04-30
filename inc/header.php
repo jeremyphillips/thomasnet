@@ -15,12 +15,18 @@
 
 <body>
 
+<?php
+	// Referrer name and email variables
+	// used for hidden input in referral form 
+	$ref_em = $_GET['ref_em'];
+	$ref_nm = $_GET['ref_nm'];
+ ?>
 	
 <div class="container">
 
 	<header class="navbar navbar-inverse" role="banner">
 		<div class="navbar-inner">
-			<div id="logo"></div>
+			<div id="logo"><a href="/thomasnet2013"></a></div>
 			<ul class="nav">
 				<li><a href="#">Suppliers</a></li>
 				<li><a href="#">Products</a></li>

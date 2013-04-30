@@ -15,10 +15,22 @@
 
 <body>
 
-<?php 
-	include('inc/form-signup.php'); 
-	include('inc/form-refer.php'); 
-?>
+<div id="signupMod" class="modal hidden">
+	<div class="modal-inner">
+		<span class="closeMod"></span>
+		<h3>Sign Up</h3>
+			<!--?php include('inc/form.php'); ?-->
+	</div>
+</div>
+
+<div id="referMod" class="modal hidden">
+	<div class="modal-inner">
+		<span class="closeMod"></span>
+		<h3>Sign up</h3>
+			<?php include('inc/form.php'); ?>
+	</div>	
+</div>
+
 <div id="overlay"></div>
 
 <?php 
@@ -103,48 +115,6 @@ congue lacus pellentesque.</li>
 
 	</section>
 
-	<section class="mailer">
-		<?php 
-			//require_once "inc/phpmailer/class.phpmailer.php"; 
-			//require_once "inc/functions.php";
-
-
-
-		?>
-
-		<!--form>
-			<input type="text" name="name" id="name" />
-			<input type="email" name="email" id="email"/>
-			<input type="text" name="question" id="question"/>
-		</form-->
-		
-
-	</section>
-	
-
-	
-
-	<footer role="contentinfo">
-
-	</footer>
-
-</div>
-
-
-
-<script src="js/bootstrap.min.js"></script>
-<script src="js/plugins.js"></script>
-
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-XXXXXX-XX']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-
-</body>
-</html>
+<?php 
+include('inc/footer.php'); 
+?>

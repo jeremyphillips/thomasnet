@@ -7,7 +7,10 @@
 
 
 <script src="js/bootstrap.min.js"></script>
-<script src="js/plugins.js"></script>
+<script src="js/jquery.validate.js"></script>
+<!--script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script-->
+<script src="js/script.js"></script>
+
 
     <script type="text/javascript">
       var _gaq = _gaq || [];
